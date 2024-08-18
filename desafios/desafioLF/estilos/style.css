@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*Gerais*/
+
+/*
+#0d1b2a
+#1b263b
+#415a77
+#778da9
+#e0e1dd
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    background: url(../imagens/mulher-compra.jpg) no-repeat ;
+    background-size: cover;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.267)
+}
+
+h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 2.7em;
+    padding-left: 18%;
+}
+
+p {
+    font-size: 1.5em;
+}
